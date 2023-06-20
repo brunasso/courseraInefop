@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    text-align: center;
+}
+div{
+    margin-bottom: 3%;
+}
+#navPage{
+    padding: 10px;
+    background-color: aqua;
+    margin-bottom: 30px;
+}
+#navPage h3{
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    color: brown;
+}
+#navPage nav a:hover{
+    color: blueviolet;
+}
+#navPage nav a:active{
+    color: green;
+}
+.grid-container{
+    margin: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between   
+}
+.grid-container img{
+    margin-top: 15%;
+    width: 60%;
+}
+.grid-container div{
+    display: table-cell;
+    vertical-align: middle;
+    width: 150px;
+    height: 150px;
+    box-shadow: 3px 3px black, -1em 0 .4em olive;
+}
+.recom{
+    width: 80%; 
+    text-align: center; 
+    display: inline-grid
+}
