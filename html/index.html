@@ -8,7 +8,11 @@
 </head>
 <body>
     <div id="navPage">
-        <h3 style="margin-left: 0;">Bruno Tomasso</h3>
+        <div id="contact">
+            <h3>Bruno Tomasso</h3>
+            <h6>Mail: bruno@asd.com</h6>
+            <h6>Tel: +123456789</h6>
+        </div>
         <nav>
             <a href="#About me">Aboute me</a>
             <a href="#Skills">Skills</a>
@@ -16,9 +20,9 @@
             <a href="#Recommendations">Recommendations</a>
         </nav>
     </div>
-    <div style="display: flex; justify-content: space-around;">
-        <img style="width: 200px;" src="../img/avatar.jpg">
-        <div style="width: 50%;">
+    <div id="presentation">
+        <img src="../img/avatar.jpg">
+        <div>
             <h2>Hi, i'm Bruno.</h2>
             <br>
             <p>
@@ -34,51 +38,58 @@
     <div class="grid-container">
         <div>
             <img src="../img/html.png" alt="">
+            <p>2 years experience</p>
         </div>
         <div>
             <img src="../img/css.png" alt="">
+            <p>2 years experience</p>
         </div>
         <div>
             <img src="../img/js.png" alt="">
+            <p>2 years experience</p>
         </div>
         <div>
             <img src="../img/node.png" alt="">
+            <p> 1 > years experience</p>
         </div>
         <div>
             <img src="../img/csharp.png" alt="">
+            <p> 1 > years experience</p>
         </div>
         <div>
             <img src="../img/flutter.png" alt="">
+            <p> 1 > Academic exp.</p>
         </div>
     </div>
-    <h2 id="#Projects">Projects</h2>
-    <div>
-        <p>Los proyectos los encontras en:</p>
-        <br>
-        <p><a href="https://github.com/brunasso" target="_blank">Mi Github</a></p>
+    <h2 id="#Projects">Projects</h2><br>
+    <div class="projects"><br>
+        <h4>Auto sell</h4>
+        <ul>
+            <li> The project is about a marketplace of cars. Project has a cart and history transactions. </li>
+        </ul><br>
+        <h4>Chatbot</h4>
+        <ul>
+            <li>Project about a chatbot using node with socket io</li>
+        </ul><br>
+        <h4>Tic Tac Toe</h4>
+        <ul>
+            <li> The classic game "Tic tac toe" made in C#</li>
+        </ul>
     </div>
     <h2 id="#Recommendations">Recommendations</h2>
-    <div class="recom">
-        
-    <p>
-        My recommendations to everyone who wants to start with the programming is: First, you have to know very well about the basis. Then try to understand waht HTML, CSS is, and next you have to choose one language and try to understand how to use, how is the way of the code and try to do some projects with that language.
-        LEARN UNIT TEST! Is a very well plus.
-        After those things maybe you can learn something about design patterns.
-    </p>
-    
-
+    <div class="grid-container" id="recommendation">
     </div>
 
     <div>
         <form action="">Leave a recommendation</form>
         <label for="fname" ></label><br>
-        <input type="text" placeholder="Name (Optional)"><br>
-        <input type="text" placeholder="Message">
+        <input id="name_recommendation" type="text" placeholder="Name (Optional)"><br>
+        <input id="message_recommendation" type="text" placeholder="Message">
         <br><br>
         <input id="subm" type="submit" value="Submit">
     </div>
     <div><a href="#navPage">Comienzo</a></div>
 
-    <script src="/js/main.js"></script>
+    <script src="../js/main.js"></script>
 </body>
 </html>
