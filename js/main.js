@@ -7,15 +7,3 @@ document.getElementById('subm').addEventListener('click', () => {
         console.log(recommendationGroup);
     }
 })
-
-
-
-document.getElementById('recommendation').addEventListener('load', () =>{
-    let recom = document.getElementById('recommendation');
-    for (let i = 0; i < recommendationGroup.length; i++) {
-        let newDiv = document.createElement('div');
-        let newContent = document.createTextNode(recommendationGroup[i])
-        newDiv.appendChild(newContent);
-        recom.append(newDiv);
-    }
-})
